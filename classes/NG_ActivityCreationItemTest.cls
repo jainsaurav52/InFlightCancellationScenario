@@ -26,7 +26,7 @@ public class NG_ActivityCreationItemTest {
         insert orchItemPrev;
         
         vlocity_cmt__OrchestrationItem__c orchItem = NG_SomTestRecordUtilities.getOrchestrationItem(thisOrchestrationPlan);
-        orchItem.name = 'NG CPE Activity Creation';
+        orchItem.name = 'Activity Creation Callout';
         insert orchItem;
         
         vlocity_cmt__OrchestrationDependency__c orchDepPrev = new vlocity_cmt__OrchestrationDependency__c();
