@@ -14,7 +14,7 @@ Ver   Date             Author                               Modification
 
 global class NG_ActivityCreationItem implements vlocity_cmt.VlocityOpenInterface{
 
-    public static final string ORCHITEMNAME_CONST = 'NG CPE Activity Creation';
+    public static final string ORCHITEMNAME_CONST = 'Activity Creation Callout';
     public static final string METHODNAME_CONST = 'createActivityItems';
     public static final string FRLSTATUS_CONST = 'FRLStatus';
     public static final string FRLID_CONST = 'FrlId';
